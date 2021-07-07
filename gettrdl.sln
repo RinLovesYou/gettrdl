@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gettrdl", "gettrdl\gettrdl.csproj", "{7CBFD7CE-516F-4291-8CD7-19B0C3683CE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CBFD7CE-516F-4291-8CD7-19B0C3683CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBFD7CE-516F-4291-8CD7-19B0C3683CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBFD7CE-516F-4291-8CD7-19B0C3683CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBFD7CE-516F-4291-8CD7-19B0C3683CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B51149F2-8575-462F-9847-6B30FEFC364E}
+	EndGlobalSection
+EndGlobal
