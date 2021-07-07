@@ -5,5 +5,5 @@ expect this to break at any moment as i am blatantly poking at the api with no g
 
 # Usage
 
-download the version appropriate for your system in [releases](https://github.com/RinLovesYou/gettrdl/releases/latest)
+download the version appropriate for your system in [releases](https://github.com/RinLovesYou/gettrdl/releases/latest)<br>
 run it in cmd like `gettrdl https://gettr.com/post/id` and it will download it to the folder it's running in.
