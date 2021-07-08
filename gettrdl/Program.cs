@@ -1,11 +1,8 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using System;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Runtime.InteropServices;
 
 namespace gettrdl
 {
@@ -26,15 +23,22 @@ namespace gettrdl
                     return;
                 }
 
-                if(!input.Contains("gettr.com/post/"))
+                if(!input.Contains("gettr.com/post/") && !input.Contains("gettr.com/comment/"))
                 {
                     Console.WriteLine("Please provide a link to a gettr post containing a video!");
                     return;
                 }
                 
 
-
-                var id = input.Substring(input.IndexOf("/post"));
+                var id = "";
+                if (input.Contains("gettr.com/post/"))
+                {
+                    id = input.Substring(input.IndexOf("/post"));
+                }
+                else
+                {
+                    id = input.Substring(input.IndexOf("/comment"));
+                }
 
                 var url = "https://api.gettr.com/u" + id;
 

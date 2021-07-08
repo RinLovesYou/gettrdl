@@ -1,11 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
 	  <AssemblyName>gettrdl</AssemblyName>
 	  <OutputType>Exe</OutputType>
 	  <TargetFramework>net6.0</TargetFramework>
 	  <Optimize>false</Optimize>
-	  <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
 	  <DebugType>embedded</DebugType>
 	  <PublishSingleFile>true</PublishSingleFile>
 	  <SelfContained>true</SelfContained>
