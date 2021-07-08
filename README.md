@@ -10,7 +10,7 @@ run it in cmd like `gettrdl https://gettr.com/post/id` and it will download it t
 
 # Build it yourself
 
-building this projects is rather simple, install the .net 6.0 preview and clone this repository.<br>
+building this projects is rather simple, install .net 6.0 and clone this repository.<br>
 edit the .csproj file to build for your system, win-x64/linux-x64/osx-x64/linux-arm/etc...<br>
 run `dotnet restore`, then `dotnet publish --configuration Release`
 
