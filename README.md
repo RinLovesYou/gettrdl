@@ -8,6 +8,12 @@ expect this to break at any moment as i am blatantly poking at the api with no g
 download the version appropriate for your system in [releases](https://github.com/RinLovesYou/gettrdl/releases/latest)<br>
 run it in cmd like `gettrdl https://gettr.com/post/id` and it will download it to the folder it's running in.
 
+# Build it yourself
+
+building this projects is rather simple, install the .net 6.0 preview and clone this repository.<br>
+edit the .csproj file to build for your system, win-x64/linux-x64/osx-x64/linux-arm/etc...<br>
+run `dotnet restore`, then `dotnet publish --configuration Release`
+
 # How
 
 if you really care how it works here's a really simple explanation
