@@ -9,7 +9,8 @@ A web version also exists [here](https://gettr.rinlovesyou.com).
 # Usage
 
 download the version appropriate for your system in [releases](https://github.com/RinLovesYou/gettrdl/releases/latest)<br>
-run it in cmd like `gettrdl https://gettr.com/post/id` and it will download it to the folder it's running in.
+run it in cmd like `gettrdl https://gettr.com/post/id` and it will download it to the folder it's running in.<br>
+Optional: You may want to add a PATH/ENVIRONMENT variable to the folder gettrdl is located in, to call gettrdl from anywhere in cmd. Please look up how to do this for your operating system of choice.
 
 # Build it yourself
 
