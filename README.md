@@ -4,6 +4,8 @@ This is a simple command line tool to yoink videos from gettr.com.<br>
 expect this to break at any moment as i am blatantly poking at the api with no guarantee that it will stay this way
 I will maintain this as long as gettr is funny
 
+A web version also exists [here](https://gettr.rinlovesyou.com).
+
 # Usage
 
 download the version appropriate for your system in [releases](https://github.com/RinLovesYou/gettrdl/releases/latest)<br>
