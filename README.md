@@ -1,3 +1,6 @@
+# Archived
+Gettr Changed afaik and the meme is no longer funny
+
 # GettrDl
 
 This is a simple command line tool to yoink videos from gettr.com.<br>
